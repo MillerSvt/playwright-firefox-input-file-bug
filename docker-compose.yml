@@ -1,0 +1,10 @@
+services:
+  e2e:
+    image: mcr.microsoft.com/playwright:v1.41.1-jammy
+    volumes:
+      - ./e2e:/e2e
+      - ./package.json:/package.json
+      - ./package-lock.json:/package-lock.json
+      - ./playwright.config.ts:/playwright.config.ts
+      - ./playwright-report:/playwright-report
+    entrypoint: npm test

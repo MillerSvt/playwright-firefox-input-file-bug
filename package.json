@@ -1,0 +1,26 @@
+{
+  "name": "playwright-firefox-input-file-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "npm ci",
+    "test": "playwright test",
+    "start": "docker compose up"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MillerSvt/playwright-firefox-input-file-bug.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MillerSvt/playwright-firefox-input-file-bug/issues"
+  },
+  "homepage": "https://github.com/MillerSvt/playwright-firefox-input-file-bug#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.41.2",
+    "@types/node": "^20.11.20",
+    "typescript": "^5.3.3"
+  }
+}
